@@ -5,7 +5,7 @@
  * Exemplo: https://abc123.ngrok.io (fornecido pelo ngrok)
  */
 
-export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
+export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://de3.bot-hosting.net:22160';
 
 export const API_ENDPOINTS = {
   contentBased: (songTitle: string) => `/recommendations/content-based/${encodeURIComponent(songTitle)}`,
